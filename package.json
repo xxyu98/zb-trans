@@ -1,12 +1,13 @@
 {
   "name": "zb-trans",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "codexy",
   "description": "原始坐标、高德坐标、百度坐标本地js坐标转换",
   "license": "MIT",
   "homepage": "https://github.com/xxyu98/zb-trans",
   "bugs": "https://github.com/xxyu98/zb-trans/issues",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
